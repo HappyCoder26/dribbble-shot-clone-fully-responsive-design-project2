@@ -24,18 +24,20 @@
 
 #bottom-left {
     padding-bottom: 28px;
+    width: 80%;
 }
 
 #bottom-left h4 {
+    font-size: 1.5vw;
     margin-top: 20px;
     margin-bottom: 4px;
 }
 
 #bottom-left p {
-    font-size: 10px;
-    font-weight: 600;
+    font-size: 1.2vw;
+    font-weight: 500;
     color: #585656;
-    line-height: 13px;
+    line-height: 1.3vw;
 
 }
 
@@ -130,7 +132,7 @@
     position: absolute;
     transform-origin: 0 0;
     bottom: 1.5%;
-    left: -12%;
+    left: -13%;
     font-weight: 500;
 }
 
@@ -163,9 +165,11 @@
 
     #bottom-left {
         padding-bottom: 0px;
+        width: 100%;
     }
 
     #bottom-left h4 {
+        font-size: initial;
         margin-top: 15px;
         margin-bottom: 4px;
     }
@@ -227,6 +231,7 @@
         height: calc(100% - 65px);
         width: 100%;
         object-fit: cover;
+        object-position: 50% 37%;
         border-radius: 5px;
     }
 
